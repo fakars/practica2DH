@@ -1,0 +1,98 @@
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+
+a{
+  text-decoration: none;
+  color:grey;
+}
+
+header{
+  background-image: url("../img/emilia-music-top.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  padding-top: 20px;
+  height: 130px;
+
+}
+
+.navbar{
+  clear:right;
+  display: block;
+  background-color: rgba(255, 255, 255, 0.4);
+  padding: 15px;
+  margin: 0;
+}
+
+.navbar li{
+
+  list-style: none;
+  display: inline;
+  padding: 0px 10px 0px 10px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #000;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  float: right;
+  padding: : 0 10px;
+}
+.social{
+  margin-left: 0;
+  float: right;
+  padding-right: 10px
+
+}
+.social img{
+  height: 18px;
+  width: 18px;
+}
+
+.social li {
+  list-style: none;
+  display: inline;
+}
+
+.tracks{
+  list-style: decimal-leading-zero;
+
+}
+
+.play{
+  list-style-image: url("../img/play.svg");
+  padding: 12px;
+  font-size: 15px;
+}
+
+.play li{
+  text-transform: capitalize;
+
+}
+
+.cover{
+  width: 713px
+}
+
+#music{
+  text-transform: uppercase;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  font-size: 60px;
+  color:black;
+  margin-top: 10px;
+
+}
+
+.anchors li{
+  list-style: none;
+
+}
+
+h2{
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+}
