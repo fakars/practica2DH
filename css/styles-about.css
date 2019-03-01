@@ -6,11 +6,13 @@ body{
   font-family: 'Open Sans', sans-serif;
   background-attachment: fixed;
   background-size: contain;
+  margin: 0 auto;
 }
 
 span{
+  left:81%;
+  position: relative;
   border-left: 1px solid;
-  height: 5px;
 }
 
 span:nth-child(4){
@@ -19,13 +21,14 @@ span:nth-child(4){
 
 .navbar{
 
+  width: 100%;
   background-color: rgba(255, 255, 255, 0.4);
-  padding: 15px;
+  padding: 1%;
   margin-top: 3%;
   margin-bottom: 0;
   float: right;
-  display: inline-block;
-  
+
+
 
 }
 
@@ -42,7 +45,7 @@ span:nth-child(4){
   text-decoration: none;
   color: #000;
   text-transform: uppercase;
-  font-size: 12px;
+  font-size: 80%;
   font-family: 'Open Sans', sans-serif;
   text-align: center;
 
@@ -54,11 +57,14 @@ span:nth-child(4){
 }
 
 .social{
+
   float: right;
   clear:right;
+  margin-right: 2.5%;
 }
 
 .social li{
+
   list-style: none;
   display: inline;
 }
@@ -76,6 +82,7 @@ span:nth-child(4){
 }
 
 p{
+
   color: #40A08F;
   margin-left: 85px;
   font-family: 'Raleway', sans-serif;
